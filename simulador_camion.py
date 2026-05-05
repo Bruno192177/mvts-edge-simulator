@@ -65,5 +65,6 @@ def iniciar_simulacion():
         if connection.is_open:
             connection.close()
 
+
 if __name__ == '__main__':
     iniciar_simulacion()
